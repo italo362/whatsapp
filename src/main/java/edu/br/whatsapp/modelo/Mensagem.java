@@ -20,6 +20,7 @@ public class Mensagem {
 		this.texto = texto;
 		this.remetente = remetente;
 		this.destinatario = destinatario;
+		this.horario = Instant.now();
 	}
 	
 	
