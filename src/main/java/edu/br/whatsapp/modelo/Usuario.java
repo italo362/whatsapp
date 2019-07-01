@@ -1,11 +1,14 @@
 package edu.br.whatsapp.modelo;
 
+import java.util.List;
+
 public class Usuario {
 	
 	private String nome;
 	private String foto;
 	private String numero;
 	private String recado;
+	private List<Usuario> contatos;
 	
 	
 
@@ -45,6 +48,12 @@ public class Usuario {
 	}
 	public void setRecado(String recado) {
 		this.recado = recado;
+	}
+	public List<Usuario> getContatos() {
+		return contatos;
+	}
+	public void setContatos(List<Usuario> contatos) {
+		this.contatos = contatos;
 	}
 	
 	
